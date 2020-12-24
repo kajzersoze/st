@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<use>
+	<flag name="anysize">This patch allows st to resize to any pixel size, makes the inner border size dynamic</flag>
+	<flag name="blinkingcursor">This patch allows the use of a blinking cursor</flag>
+	<flag name="boxdraw">Custom rendering of lines/blocks/braille characters for gapless alignment</flag>
+	<flag name="clipboard">This trivial patch sets CLIPBOARD on selection, the same as your browser</flag>
+	<flag name="externalpipe">Reading and writing st's screen through a pipe</flag>
+	<flag name="font2">This patch allows to add spare font besides default, some glyphs can be not present in default font</flag>
+	<flag name="ligatures">This patch adds proper drawing of ligatures</flag>
+	<flag name="scrollback">Scroll back through terminal output using Shift+{PageUp, PageDown}</flag>
+	<flag name="transparency">This patch allows users to change the opacity of the background</flag>
+	<flag name="visualbell2">Briefly renders a configurable visual indication on terminal bell event</flag>
+</use>	
+	<maintainer type="person">
+			<email>gyakovlev@gentoo.org</email>
+			<name>Georgy Yakovlev</name>
+	</maintainer>
+</pkgmetadata>
